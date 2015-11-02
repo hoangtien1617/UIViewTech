@@ -14,6 +14,7 @@
 		292156631BD48C5000D716AA /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2921565D1BD48C5000D716AA /* BootLogic.m */; settings = {ASSET_TAGS = (); }; };
 		292156641BD48C5000D716AA /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2921565F1BD48C5000D716AA /* ConsoleScreen.m */; settings = {ASSET_TAGS = (); }; };
 		292156651BD48C5000D716AA /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 292156611BD48C5000D716AA /* MainScreen.m */; settings = {ASSET_TAGS = (); }; };
+		294281351BE6FE4800FE15C5 /* EarthAroundSun.m in Sources */ = {isa = PBXBuildFile; fileRef = 294281341BE6FE4800FE15C5 /* EarthAroundSun.m */; settings = {ASSET_TAGS = (); }; };
 		294D56791BD4962100FC53EB /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 294D56771BD4962100FC53EB /* BasicView.m */; settings = {ASSET_TAGS = (); }; };
 		294D567C1BD496E100FC53EB /* BasicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 294D567B1BD496E100FC53EB /* BasicView.xib */; settings = {ASSET_TAGS = (); }; };
 		295BB0FD1BD8C412007B857E /* UIColor+Extent.m in Sources */ = {isa = PBXBuildFile; fileRef = 295BB0FC1BD8C412007B857E /* UIColor+Extent.m */; settings = {ASSET_TAGS = (); }; };
@@ -33,6 +34,11 @@
 		29A098C81BD6338E00B6A031 /* running.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29A098C71BD6338E00B6A031 /* running.mp3 */; settings = {ASSET_TAGS = (); }; };
 		29A098CA1BD633C100B6A031 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A098C91BD633C100B6A031 /* AVFoundation.framework */; };
 		29A098D71BD6377A00B6A031 /* StarField.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A098D61BD6377A00B6A031 /* StarField.m */; settings = {ASSET_TAGS = (); }; };
+		29A7159B1BE7010A0041FC17 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 29A7159A1BE7010A0041FC17 /* sun.png */; settings = {ASSET_TAGS = (); }; };
+		29A7159D1BE701110041FC17 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 29A7159C1BE701110041FC17 /* earth.png */; settings = {ASSET_TAGS = (); }; };
+		29C5C7481BE74A5B00B2A9F1 /* moon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 29C5C7471BE74A5B00B2A9F1 /* moon1.png */; settings = {ASSET_TAGS = (); }; };
+		29C5C74A1BE74F4A00B2A9F1 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C5C7491BE74F4A00B2A9F1 /* background.jpg */; settings = {ASSET_TAGS = (); }; };
+		29C5C74E1BE758B300B2A9F1 /* DropBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C5C74D1BE758B300B2A9F1 /* DropBall.m */; settings = {ASSET_TAGS = (); }; };
 		29CBE5C71BD4CE2300233111 /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CBE5C61BD4CE2300233111 /* ChessView.m */; settings = {ASSET_TAGS = (); }; };
 		29CBE5CC1BD4DDBF00233111 /* CampFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CBE5CB1BD4DDBF00233111 /* CampFire.m */; settings = {ASSET_TAGS = (); }; };
 		29CBE5DE1BD4DDD300233111 /* campFire01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29CBE5CD1BD4DDD300233111 /* campFire01.gif */; settings = {ASSET_TAGS = (); }; };
@@ -78,6 +84,8 @@
 		2921565F1BD48C5000D716AA /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleScreen.m; sourceTree = "<group>"; };
 		292156601BD48C5000D716AA /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
 		292156611BD48C5000D716AA /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		294281331BE6FE4800FE15C5 /* EarthAroundSun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthAroundSun.h; sourceTree = "<group>"; };
+		294281341BE6FE4800FE15C5 /* EarthAroundSun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthAroundSun.m; sourceTree = "<group>"; };
 		294D56761BD4962100FC53EB /* BasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicView.h; sourceTree = "<group>"; };
 		294D56771BD4962100FC53EB /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicView.m; sourceTree = "<group>"; };
 		294D567B1BD496E100FC53EB /* BasicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicView.xib; sourceTree = "<group>"; };
@@ -103,6 +111,12 @@
 		29A098C91BD633C100B6A031 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		29A098D51BD6377A00B6A031 /* StarField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarField.h; sourceTree = "<group>"; };
 		29A098D61BD6377A00B6A031 /* StarField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarField.m; sourceTree = "<group>"; };
+		29A7159A1BE7010A0041FC17 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		29A7159C1BE701110041FC17 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		29C5C7471BE74A5B00B2A9F1 /* moon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon1.png; sourceTree = "<group>"; };
+		29C5C7491BE74F4A00B2A9F1 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		29C5C74C1BE758B300B2A9F1 /* DropBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropBall.h; sourceTree = "<group>"; };
+		29C5C74D1BE758B300B2A9F1 /* DropBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropBall.m; sourceTree = "<group>"; };
 		29CBE5C51BD4CE2300233111 /* ChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessView.h; sourceTree = "<group>"; };
 		29CBE5C61BD4CE2300233111 /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
 		29CBE5CA1BD4DDBF00233111 /* CampFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampFire.h; sourceTree = "<group>"; };
@@ -155,6 +169,8 @@
 		292156351BD48BC000D716AA = {
 			isa = PBXGroup;
 			children = (
+				29C5C74B1BE7589900B2A9F1 /* Drop Ball */,
+				294281321BE6FE1800FE15C5 /* Earth Around Sun */,
 				29EB9B531BDE129600756508 /* RollingBall */,
 				29A098C91BD633C100B6A031 /* AVFoundation.framework */,
 				292156591BD48BE700D716AA /* Core */,
@@ -216,6 +232,19 @@
 				292156611BD48C5000D716AA /* MainScreen.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		294281321BE6FE1800FE15C5 /* Earth Around Sun */ = {
+			isa = PBXGroup;
+			children = (
+				29C5C7491BE74F4A00B2A9F1 /* background.jpg */,
+				29C5C7471BE74A5B00B2A9F1 /* moon1.png */,
+				29A7159C1BE701110041FC17 /* earth.png */,
+				29A7159A1BE7010A0041FC17 /* sun.png */,
+				294281331BE6FE4800FE15C5 /* EarthAroundSun.h */,
+				294281341BE6FE4800FE15C5 /* EarthAroundSun.m */,
+			);
+			name = "Earth Around Sun";
 			sourceTree = "<group>";
 		};
 		295BB0F71BD8C18D007B857E /* Hex Color 2 */ = {
@@ -314,6 +343,15 @@
 			name = Star;
 			sourceTree = "<group>";
 		};
+		29C5C74B1BE7589900B2A9F1 /* Drop Ball */ = {
+			isa = PBXGroup;
+			children = (
+				29C5C74C1BE758B300B2A9F1 /* DropBall.h */,
+				29C5C74D1BE758B300B2A9F1 /* DropBall.m */,
+			);
+			name = "Drop Ball";
+			sourceTree = "<group>";
+		};
 		29CBE5C81BD4DD6000233111 /* CampFire */ = {
 			isa = PBXGroup;
 			children = (
@@ -407,6 +445,7 @@
 				TargetAttributes = {
 					2921563D1BD48BC000D716AA = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7R8ZB7V7RS;
 					};
 				};
 			};
@@ -433,9 +472,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A7159D1BE701110041FC17 /* earth.png in Resources */,
 				29A098B01BD608C700B6A031 /* bird2.png in Resources */,
 				29A098B91BD6293700B6A031 /* sea1.png in Resources */,
 				29CBE5E41BD4DDD300233111 /* campFire07.gif in Resources */,
+				29C5C74A1BE74F4A00B2A9F1 /* background.jpg in Resources */,
 				29CBE5DF1BD4DDD300233111 /* campFire02.gif in Resources */,
 				29CBE5E61BD4DDD300233111 /* campFire09.gif in Resources */,
 				29CBE5EB1BD4DDD300233111 /* campFire14.gif in Resources */,
@@ -461,7 +502,9 @@
 				29CBE5E91BD4DDD300233111 /* campFire12.gif in Resources */,
 				29EB9B5D1BDE166700756508 /* stadium.jpg in Resources */,
 				29A098AE1BD608C700B6A031 /* bird0.png in Resources */,
+				29A7159B1BE7010A0041FC17 /* sun.png in Resources */,
 				29CBE5ED1BD4DDD300233111 /* campFire16.gif in Resources */,
+				29C5C7481BE74A5B00B2A9F1 /* moon1.png in Resources */,
 				29A098B31BD608C700B6A031 /* bird5.png in Resources */,
 				29CBE5E51BD4DDD300233111 /* campFire08.gif in Resources */,
 				29CBE5E81BD4DDD300233111 /* campFire11.gif in Resources */,
@@ -480,6 +523,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294281351BE6FE4800FE15C5 /* EarthAroundSun.m in Sources */,
 				29E778431BDDD168007DD078 /* ColorView.m in Sources */,
 				29A098D71BD6377A00B6A031 /* StarField.m in Sources */,
 				292156631BD48C5000D716AA /* BootLogic.m in Sources */,
@@ -491,6 +535,7 @@
 				29E778401BDDD124007DD078 /* DemoColor.m in Sources */,
 				29A098A51BD5F39500B6A031 /* FlyingBird.m in Sources */,
 				295BB1091BD8CBE9007B857E /* HexColor.m in Sources */,
+				29C5C74E1BE758B300B2A9F1 /* DropBall.m in Sources */,
 				295BB0FD1BD8C412007B857E /* UIColor+Extent.m in Sources */,
 				292156621BD48C5000D716AA /* AppDelegate.m in Sources */,
 				29CBE5F21BD4E47600233111 /* NestedSquares.m in Sources */,
@@ -598,11 +643,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UIViewBasic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HT.UIViewBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -610,11 +658,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UIViewBasic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HT.UIViewBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

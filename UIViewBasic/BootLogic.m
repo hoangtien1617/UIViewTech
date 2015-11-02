@@ -25,7 +25,10 @@
                                     @{TITLE: @"Star Field", CLASS: @"StarField"},
                                     @{TITLE: @"Hex Color 2", CLASS: @"HexColor"},
                                     @{TITLE: @"Hex Color 3", CLASS: @"DemoColor"},
-                                    @{TITLE: @"Rolling Ball", CLASS: @"RollingBall"}
+                                    @{TITLE: @"Rolling Ball", CLASS: @"RollingBall"},
+                                    @{TITLE: @"Earth Around Sun", CLASS: @"EarthAroundSun"},
+                                    @{TITLE: @"Drop Ball", CLASS: @"DropBall"},
+
 
 
 
