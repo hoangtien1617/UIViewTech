@@ -28,6 +28,7 @@
                                     @{TITLE: @"Rolling Ball", CLASS: @"RollingBall"},
                                     @{TITLE: @"Earth Around Sun", CLASS: @"EarthAroundSun"},
                                     @{TITLE: @"Drop Ball", CLASS: @"DropBall"},
+                                    @{TITLE: @"TapUI", CLASS: @"TapUI"}
 
 
 

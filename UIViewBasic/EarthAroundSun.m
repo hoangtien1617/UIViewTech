@@ -19,7 +19,7 @@
     CGPoint sunCenter; //CoreGraphics Point
     CGFloat distanceEarthToSun;
     CGFloat distanceMoonToEarth;
-    CGFloat angle;  //goc quay
+    CGFloat angle;
     CGFloat angle1;
 }
 - (void)viewDidLoad {
@@ -83,7 +83,7 @@
     earth.center = [self computePositionOfEarch:angle];
 }
 -(void) spinMoon{
-    angle1 +=0.03;
+    angle1 +=0.02;
     moon.center = [self computePositionOfMoon:angle1];
 }
 

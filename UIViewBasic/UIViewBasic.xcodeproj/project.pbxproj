@@ -36,6 +36,9 @@
 		29A098D71BD6377A00B6A031 /* StarField.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A098D61BD6377A00B6A031 /* StarField.m */; settings = {ASSET_TAGS = (); }; };
 		29A7159B1BE7010A0041FC17 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 29A7159A1BE7010A0041FC17 /* sun.png */; settings = {ASSET_TAGS = (); }; };
 		29A7159D1BE701110041FC17 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 29A7159C1BE701110041FC17 /* earth.png */; settings = {ASSET_TAGS = (); }; };
+		29BEF06B1BF997C500023BD3 /* TapUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BEF0691BF997C500023BD3 /* TapUI.m */; settings = {ASSET_TAGS = (); }; };
+		29BEF06C1BF997C500023BD3 /* TapUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29BEF06A1BF997C500023BD3 /* TapUI.xib */; settings = {ASSET_TAGS = (); }; };
+		29BEF06E1BF9980A00023BD3 /* grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29BEF06D1BF9980A00023BD3 /* grass.jpg */; settings = {ASSET_TAGS = (); }; };
 		29C5C7481BE74A5B00B2A9F1 /* moon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 29C5C7471BE74A5B00B2A9F1 /* moon1.png */; settings = {ASSET_TAGS = (); }; };
 		29C5C74A1BE74F4A00B2A9F1 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C5C7491BE74F4A00B2A9F1 /* background.jpg */; settings = {ASSET_TAGS = (); }; };
 		29C5C74E1BE758B300B2A9F1 /* DropBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C5C74D1BE758B300B2A9F1 /* DropBall.m */; settings = {ASSET_TAGS = (); }; };
@@ -113,6 +116,10 @@
 		29A098D61BD6377A00B6A031 /* StarField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarField.m; sourceTree = "<group>"; };
 		29A7159A1BE7010A0041FC17 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
 		29A7159C1BE701110041FC17 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		29BEF0681BF997C500023BD3 /* TapUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapUI.h; sourceTree = "<group>"; };
+		29BEF0691BF997C500023BD3 /* TapUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapUI.m; sourceTree = "<group>"; };
+		29BEF06A1BF997C500023BD3 /* TapUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TapUI.xib; sourceTree = "<group>"; };
+		29BEF06D1BF9980A00023BD3 /* grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grass.jpg; sourceTree = "<group>"; };
 		29C5C7471BE74A5B00B2A9F1 /* moon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon1.png; sourceTree = "<group>"; };
 		29C5C7491BE74F4A00B2A9F1 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		29C5C74C1BE758B300B2A9F1 /* DropBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropBall.h; sourceTree = "<group>"; };
@@ -169,6 +176,7 @@
 		292156351BD48BC000D716AA = {
 			isa = PBXGroup;
 			children = (
+				29BEF0671BF997AC00023BD3 /* TapUI */,
 				29C5C74B1BE7589900B2A9F1 /* Drop Ball */,
 				294281321BE6FE1800FE15C5 /* Earth Around Sun */,
 				29EB9B531BDE129600756508 /* RollingBall */,
@@ -343,6 +351,17 @@
 			name = Star;
 			sourceTree = "<group>";
 		};
+		29BEF0671BF997AC00023BD3 /* TapUI */ = {
+			isa = PBXGroup;
+			children = (
+				29BEF06D1BF9980A00023BD3 /* grass.jpg */,
+				29BEF0681BF997C500023BD3 /* TapUI.h */,
+				29BEF0691BF997C500023BD3 /* TapUI.m */,
+				29BEF06A1BF997C500023BD3 /* TapUI.xib */,
+			);
+			name = TapUI;
+			sourceTree = "<group>";
+		};
 		29C5C74B1BE7589900B2A9F1 /* Drop Ball */ = {
 			isa = PBXGroup;
 			children = (
@@ -488,6 +507,7 @@
 				29EB9B721BDE3CF600756508 /* red.png in Resources */,
 				29A098AF1BD608C700B6A031 /* bird1.png in Resources */,
 				29A098B11BD608C700B6A031 /* bird3.png in Resources */,
+				29BEF06E1BF9980A00023BD3 /* grass.jpg in Resources */,
 				29A098B41BD608C700B6A031 /* jungle.jpg in Resources */,
 				29A098B21BD608C700B6A031 /* bird4.png in Resources */,
 				29CBE5E01BD4DDD300233111 /* campFire03.gif in Resources */,
@@ -511,6 +531,7 @@
 				29A098C81BD6338E00B6A031 /* running.mp3 in Resources */,
 				29CBE5EA1BD4DDD300233111 /* campFire13.gif in Resources */,
 				29A098C51BD62D3500B6A031 /* Ship.png in Resources */,
+				29BEF06C1BF997C500023BD3 /* TapUI.xib in Resources */,
 				2921564E1BD48BC000D716AA /* Assets.xcassets in Resources */,
 				29CBE5E31BD4DDD300233111 /* campFire06.gif in Resources */,
 			);
@@ -528,6 +549,7 @@
 				29A098D71BD6377A00B6A031 /* StarField.m in Sources */,
 				292156631BD48C5000D716AA /* BootLogic.m in Sources */,
 				29EB9B561BDE12BB00756508 /* RollingBall.m in Sources */,
+				29BEF06B1BF997C500023BD3 /* TapUI.m in Sources */,
 				292156651BD48C5000D716AA /* MainScreen.m in Sources */,
 				29CBE5C71BD4CE2300233111 /* ChessView.m in Sources */,
 				292156641BD48C5000D716AA /* ConsoleScreen.m in Sources */,

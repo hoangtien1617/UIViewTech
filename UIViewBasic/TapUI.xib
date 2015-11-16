@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TapUI">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grass.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vi9-gP-84q">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <animations/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="CFG-zP-YjI" appends="YES" id="XxI-kq-0CF"/>
+                    </connections>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vi9-gP-84q" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="6Ad-01-NTR"/>
+                <constraint firstItem="vi9-gP-84q" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="a9i-8r-g3r"/>
+                <constraint firstAttribute="trailing" secondItem="vi9-gP-84q" secondAttribute="trailing" id="fRk-eI-CYc"/>
+                <constraint firstAttribute="bottom" secondItem="vi9-gP-84q" secondAttribute="bottom" id="t7k-1r-dSb"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="227" y="346"/>
+        </view>
+        <tapGestureRecognizer id="CFG-zP-YjI">
+            <connections>
+                <action selector="Tap:" destination="-1" id="Boj-6N-1C2"/>
+                <outlet property="delegate" destination="-1" id="swT-pr-4s0"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="grass.jpg" width="1920" height="1200"/>
+    </resources>
+</document>
